@@ -1,0 +1,4 @@
+alert tcp any any -> any 80 (msg:"one"; sid:9100; rev:1;)
+alert udp any any -> any 53 (msg:"two"; content:"x"; sid:9101; rev:1;)
+
+reject ip any any -> any any (msg:"three"; sid:9102; rev:1;)

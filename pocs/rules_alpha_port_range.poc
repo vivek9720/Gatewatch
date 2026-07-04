@@ -1,0 +1,1 @@
+alert tcp any 1:abc -> any 80 (msg:"bad source range"; sid:9001; rev:1;)

@@ -1,0 +1,1 @@
+-A OUTPUT -p tcp -s 10.0.0.5 --sport 70000:1 -d 203.0.113.10 --dport 443 -j ACCEPT

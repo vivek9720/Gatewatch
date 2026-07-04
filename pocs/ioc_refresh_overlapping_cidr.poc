@@ -1,0 +1,5 @@
+10.0.0.0/8 block severity=high
+10.1.2.3 allow confidence=100
+
+10.0.0.0/9 allow source=refresh
+10.128.0.0/9 block source=refresh

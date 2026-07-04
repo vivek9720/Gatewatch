@@ -1,0 +1,3 @@
+alert tcp any any -> any 443 (msg:"tls old"; sid:9002; rev:1;)
+
+alert tcp any any -> any 443 (msg:"tls new"; sid:9002; rev:999999999999;)

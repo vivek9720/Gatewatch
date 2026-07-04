@@ -1,0 +1,3 @@
+https://example.com/%ff/%fe block tag=encoded
+*.example.org allow owner=ops
+2001:db8::1 block malformed-ipv6
